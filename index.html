@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Creando p&aacute;ginas web con HTML</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Es es un documento en HTML" >
+    <meta name="keywords" content="HTML, CSS y Javascript" >
+    <link rel="icon" href="imagenes/favicon.png" type="image/png" sizes="16x16" >
+    <link rel="stylesheet" href="mis-estilos.css" >
+</head>
+<body>
+        <header>
+            <h1>Este es el título más grande</h1>
+            <time datetime="2024-04-01" pubdate>Fecha de publicación 04/01/2024</time>
+        </header>
+        <nav>
+            <a href="index.html">Principal </a> |
+            <a href="fotos.html">Fotos </a> |
+            <a href="videos.html">Videos </a> |
+            <a href="contacto.html">Principal </a> 
+        </nav>
+        <main>
+                <section id="noticias">
+                    Artículos largos
+                </section>
+                <section id="noticiasLocales">
+                    Artículos locales
+                </section>
+                <section>
+                    <article>
+                        <pre>
+                            <code>
+                                function cambiarColor() 
+                                {
+                                    document.body.style.backgroundColor = "#0000FF";
+                                }
+                                document.addEventListener("click", cambiarColor);
+                            </code>
+                        </pre>
+                        <p>
+                            La muertes es una quimera: porque mientras yo existo, no existe la muerte;
+                            <br> y cuando existe la muerte, ya no existe yo .<br> Epicuro de Sampos.
+                        </p>
+                        <p>La muerte es una <em>quimera</em>: porque mientras yo existo, no existe la <i>muerte</i>;
+                           ;<br> y cuando existe la <i>muerte</i>, <strong>ya no existe yo</strong>.<br> Epicuro de Samos. 
+                        </p>
+                        <p>La muerte es una quimera: porque mientras yo <mark>existo</mark>,
+                           no existe la muerte; <br> y cuando existe la muerte, ya no existo yo.<br><cite>Epicuro de Samos.</cite>
+                        </p>
+                    </article>
+                    <article>Este es el texto de mi primer artículo</article>
+                    <article>Este es el texto de mi segundo articulo</article>
+                </section> 
+                <section>
+                    <div class="libros">Libros de TI</div>
+                    <div class="libros">Libros de Ciencia Ficción</div>
+                    <div class="libros">Libros de Lenguas</div>
+                    <div class="libros">Libros de Política</div>
+                    <form name="formulario" method="get" action="procesar.php">
+
+                    </form>
+                </section>
+                 <aside>
+                    <p>Cita del artículo uno</p>
+                    <p>Cita del artículo dos</p>
+                 </aside>
+        </main>
+        <footer>
+            &copy; Derechos Reservados 2024
+            <address>Lima, Perú</address>
+            <small>&copy; <a href="http://www.jdgauchat.com">J.D. Gauchat</a></small>
+
+        </footer>
+</body>
+</html>
